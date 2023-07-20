@@ -1,90 +1,92 @@
 import React from 'react'
 import './homestyle.css'
-import Doctor from '../images/doctor.png';
+import Covid from '../images/covid.jpeg'
+import Dropdown from './dropdown'
+
+import TestimonialSlider1 from '../Components/tss';
+import Carousel from '../Components/carousel'
+
 
 
 const Home = () => {
   return (
     <>
-     <div className='banner'>
+    <Dropdown/>
+    <div className='banner'>
       <img src="https://s3.ap-southeast-1.amazonaws.com/www.practostatic.com/consumer-home/desktop/images/1597423628/chronic_consumer_banner_dweb.png" alt='banner'/>
      </div>
-     <div className='cards'>
-     <div className='card'>
+    <div className='cards-top'>
+     <div className='card-top'>
       <div className='card-image-1'>
-        <img src={Doctor} alt='doctor'></img>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png"alt='doctor' className='img-top'></img>
       </div>
       <div className='card-info'>
       <div className='card-heading'>
-        Surgeries
+        Instant Video Consultation
       </div>
       <div className='card-subheading'>
-        xyz
+        Connect withinn 60 secs
       </div>
       </div>
      </div>
 
-     <div className='card'>
+     <div className='card-top'>
       <div className='card-image-2'>
-        <img src={Doctor} alt='doctor'></img>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_find_doctors.png"alt='doctor' className='img-top'></img>
       </div>
       <div className='card-info'>
       <div className='card-heading'>
-        Surgeries
+        Find Doctors Near You
       </div>
       <div className='card-subheading'>
-        xyz
+       Confirmed Appointments
       </div>
       </div>
      </div>
 
-     <div className='card'>
+     <div className='card-top'>
       <div className='card-image-3'>
-        <img src={Doctor} alt='doctor'></img>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_medicines.png" alt='doctor' className='img-top'></img>
       </div>
       <div className='card-info'>
       <div className='card-heading'>
-        Surgeries
+        Medicines
       </div>
       <div className='card-subheading'>
-        xyz
+        Essentials at your Doorstep
       </div>
       </div>
      </div>
 
-     <div className='card'>
+     <div className='card-top'>
       <div className='card-image-4'>
-        <img src={Doctor} alt='doctor'></img>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_lab_tests.png" alt='doctor' className='img-top'></img>
       </div>
       <div className='card-info'>
       <div className='card-heading'>
-        Surgeries
+        Lab Tests
       </div>
       <div className='card-subheading'>
-        xyz
+       Sample pickup at your home
       </div>
       </div>
      </div>
 
-     <div className='card'>
+     <div className='card-top'>
       <div className='card-image-5'>
-        <img src={Doctor} alt='doctor'></img>
+        <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_surgeries.png" alt='doctor' className='img-top'></img>
       </div>
       <div className='card-info'>
       <div className='card-heading'>
         Surgeries
       </div>
       <div className='card-subheading'>
-        xyz
+        Safe and trusted surgery centers
       </div>
       </div>
      </div>
      </div>
-
-
-
-
-     <div className='Consult'>
+    <div className='Consult'>
       <div className='content'>
         <div className='u-margin-15'>
           <h2 className='head'>
@@ -97,8 +99,6 @@ const Home = () => {
         </div>
       </div>
      </div>
-
-
     <div className='consult-cards'>
 
       <div className='card-c'>
@@ -198,6 +198,103 @@ const Home = () => {
       </div>
      </div>
 
+    </div>
+
+    <div className='carousel-head'>
+      <h2>Book an appointment for in-clinic consultation</h2>
+      <p>Find experienced doctors across all specialties</p>
+    </div>
+    <Carousel/>
+    <div className='margin_top_60'>
+      <div className='static'>
+        <div className='content-1'>
+          <div className='margins_section'>
+            <div className='card-one'>
+              <div className='card-content'>
+                <h3 className='card-content-head'>
+                  Read Top Articles from Health Experts
+                </h3>
+                <div className='card_sub'>
+                  Health articles that keep you informed about good health practices and achieve your goals.
+                </div>
+                <button className='buttn'>
+                  See all articles
+                </button>
+              </div>
+            </div>
+
+            <div className='card-two'>
+              <div className='card-content'>
+                <div className='card-img'>
+                  <img src={Covid} alt='coronavirus article'></img>
+                </div>
+                <div className='up-head'>
+                  CORONAVIRUS
+                </div>
+                <div className='head-2'>
+                  <b>12 Coronavirus Myths and Facts That You Should Be Aware Of</b>
+                </div>
+                <div className='head-3'>
+                  Dr. Diana Borgio
+                </div>
+              </div>
+            </div>
+
+
+            <div className='card-two'>
+              <div className='card-content'>
+                <div className='card-img'>
+                  <img src="https://www.practostatic.com/fit/bade52edc7fb158bf627216bf96c2b881a97f30c" alt='Vitamins and Supplements'></img>
+                </div>
+                <div className='up-head'>
+                  Vitamins and supplements
+                </div>
+                <div className='head-2'>
+                  <b>Eating Right to Build Immunity Against Cold and Viral Infections</b>
+                </div>
+                <div className='head-3'>
+                  Dr. Diana Borgio
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className='test-head'>
+      What Our Users Have To Say
+    </div>
+    <TestimonialSlider1/>
+    <div className='appbanner'>
+      <div className='appbanner-content'>
+        <div className='pos'>
+          <span className='poster'>
+            <img src='https://www.practostatic.com/consumer-home/desktop/images/1597423628/footer-img.png' className='poster-pos'></img>
+          </span>
+        </div>
+
+        <div className='pos-2'>
+          <div className='pos-v-center'>
+            <h3 className='pos-head'>Download the Practo APP</h3>
+            <p className='pos-sub'>Access video consultation with India's top doctors on the Practo app. Connect with doctors online, available 24/7, from the comfort of your home.</p>
+            <p className='pos-link'>Get the Link to Download the App</p>
+          </div>
+
+          <div className='applink'>
+            <div className='applink-input'>
+              <div className='appflex'>
+                <div className='countryCode'>
+                  +91
+                </div>
+                <input type='tel' className='phone' placeholder='Enter Phone Number'></input>
+              </div>
+              <button type='button' className='appbtn'>
+                Send SMS
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     
     </>

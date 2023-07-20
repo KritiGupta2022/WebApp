@@ -1,3 +1,8 @@
+* {
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
+
+
 .banner {
 
     border-radius: 32px;
@@ -16,7 +21,7 @@
     margin: auto auto;
 }
 
-.cards {
+.cards-top {
     width: 1180px;
     height: 290px;
     zoom: 1;
@@ -32,7 +37,7 @@
 
 
 
-.card {
+.card-top {
     border: 1px solid #f0f0f5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .12);
     border-radius: 24px;
@@ -44,6 +49,16 @@
 
 }
 
+.img-top {
+
+    width: 160px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    height: 170px;
+    margin-left: 12%;
+
+}
+
 .card-image-1 {
 
     padding-top: 12px;
@@ -52,7 +67,7 @@
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     height: 170px;
-    background-color: rgb(14, 123, 123)
+    background-color: #AFCFED;
 }
 
 .card-image-2 {
@@ -63,7 +78,7 @@
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     height: 170px;
-    background-color: rgb(46, 128, 215);
+    background-color: #98CBD6;
 
 }
 
@@ -75,7 +90,8 @@
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     height: 170px;
-    background-color: rgb(211, 146, 255);
+    background-color: #CCD0DB;
+
 
 }
 
@@ -87,7 +103,8 @@
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     height: 170px;
-    background-color: rgb(243, 202, 152);
+    background-color: #AFCFED;
+
 
 }
 
@@ -99,7 +116,7 @@
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     height: 170px;
-    background-color: rgb(118, 121, 121);
+    background-color: #D5D8FC;
 
 }
 
@@ -125,6 +142,7 @@
     font-weight: 400;
     color: #787887;
     font-family: Lato, Helvetica, Arial, sans-serif !important;
+    font-size: 14px;
 }
 
 .content {
@@ -191,6 +209,7 @@
     color: #414146;
     margin-left: 150px;
     cursor: pointer;
+    margin-bottom: 60px;
 
 }
 
@@ -218,4 +237,281 @@
     font-size: 12px;
     line-height: 1.25;
     font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
+
+
+
+.static {
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+    margin-top: 60px;
+}
+
+.content-1 {
+    width: 1180px;
+    zoom: 1;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid #dfdfe5;
+    border-top: 1px solid #dfdfe5;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+    box-sizing: border-box;
+}
+
+.margins-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-one {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-content {
+    width: 360px;
+    padding: 20px;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
+
+.card-content-head {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
+
+.card-sub {
+    color: #414146;
+    font-size: 14px;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+    margin-top: 5px;
+}
+
+.buttn {
+    padding: 15px 30px;
+    background-color: #14bef0;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.card-two {
+    vertical-align: top;
+    display: inline-block;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-content {
+    width: 280px;
+    position: relative;
+    font-size: 14px;
+    color: #414146;
+}
+
+.card-img {
+    width: 280px;
+    height: 200px;
+}
+
+.static {
+    margin-left: 160px;
+}
+
+.up-head {
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #358588;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.25;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+
+}
+
+.head-2 {
+    font-size: 16px;
+    color: #414146;
+    font-weight: 700;
+    margin-top: 5px;
+
+
+}
+
+.head-3 {
+    margin-top: 10px;
+    color: #414146;
+    font-size: 14px;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+}
+
+.test-head {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+    margin-top: 80px;
+
+}
+
+
+.appbanner {
+    width: 100%;
+    height: 572px;
+    background-color: #f8f8fb;
+    margin-top: 5px;
+
+}
+
+.appbanner-content {
+    width: 872px;
+    margin: auto;
+    zoom: 1;
+    height: 100%;
+
+}
+
+.pos {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+
+.poster-pos {
+    right: 100px;
+    width: 332px;
+    height: 376px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pos-2 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    top: -30px;
+
+}
+
+.pos-v-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Lato, Helvetica, Arial, sans-serif !important;
+
+}
+
+.pos-head {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.pos-sub {
+    margin-top: 20px;
+}
+
+.pos-link {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.applink {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    top: 68%;
+
+
+}
+
+.applink-input {
+    width: 256px;
+    border: 1px solid #d7d7e0;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.appflex {
+    display: flex;
+    font-size: 14px;
+
+}
+
+.countryCode {
+    vertical-align: bottom;
+    border-right: 1px solid rgba(180, 180, 190, .3);
+    display: inline-block;
+    padding: 15px;
+    font-weight: 700;
+    color: #000;
+    font-size: 14px;
+
+}
+
+.phone {
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    flex-grow: 100;
+    background-color: transparent;
+    font-weight: 700;
+    line-height: normal;
+    writing-mode: horizontal-tb !important;
+    padding: 1px 2px;
+    cursor: text;
+    text-size-adjust: 100%;
+    display: inline-block;
+}
+
+.appbtn {
+    padding: 15px 30px;
+    background-color: #14bef0;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    font-weight: 700;
+
+
+}
+
+.carousel-head {
+    margin-left: 160px;
+}
+
+.carousel-head h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.carousel-head p {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
 }

@@ -1,0 +1,63 @@
+.testimonial-slider-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+.testimonial-slider {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 200px;
+    text-align: center;
+
+}
+
+.slide {
+    display: none;
+    padding: 5px;
+    height: 600px;
+    transition: transform 0.5s ease;
+
+
+}
+
+.slide.active {
+    display: block;
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    right: 200px;
+    left: 200px;
+}
+
+.leftbtn {
+
+    cursor: pointer;
+    position: relative;
+    top: -150px;
+    right: 220px;
+    background-color: white;
+    border: white;
+    opacity: 0.5;
+
+
+}
+
+.rightbtn {
+
+    cursor: pointer;
+    position: relative;
+    top: -150px;
+    left: 220px;
+    background-color: white;
+    border: white;
+    opacity: 0.5;
+
+}
