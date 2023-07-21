@@ -1,22 +1,13 @@
-
-import React from 'react';
-import './App.css';
-
-import Home from './Components/home';
-import Footer from './Components/footer'
-import { Navigation } from './Components/navbar';
-
-
-
-
-
+import React from "react";
+import "./App.css";
+import Home from "./Pages/home";
+import Footer from "./Components/footer";
+import { Navigation } from "./Components/navbar";
 
 function App() {
   return (
     <div>
-    <Navigation/>
-    <Home/>
-    <Footer/>
+      <Home />
     </div>
   );
 }
