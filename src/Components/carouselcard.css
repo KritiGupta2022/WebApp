@@ -3,5 +3,10 @@
     height: auto;
     background-color: rgba(0, 0, 0, 0);
     margin: 10px;
+}
 
+p{
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgba(24, 22, 22, 0.517);
 }
