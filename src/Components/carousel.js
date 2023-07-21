@@ -1,6 +1,8 @@
 import React from 'react'
 import Cards from './carouselcard.js'
 import './carousel.css'
+import {FaChevronCircleRight, FaChevronCircleLeft} from 'react-icons/fa'
+
 const Carousel = () => {
     // let box = document.querySelector('.cards-container');
     const btnprev = ()=>{
@@ -13,8 +15,8 @@ const Carousel = () => {
     }
   return (
     <div className="carousel-container">
-        <button className="pre-btn" onClick={btnprev}><p>&lt;</p></button>
-        <button className="next-btn" onClick={btnnext}><p>&gt;</p></button>
+        <FaChevronCircleLeft size={'30px'} color={'gray'} className="pre-btn" onClick={btnprev}/>
+        <FaChevronCircleRight size={'30px'} color={'gray'} className="next-btn" onClick={btnnext} />
         <div id="cards-container">
             <Cards title = "Dentist" image = "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"/>
             <Cards title = "Gynecologist" image = "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg"/>
