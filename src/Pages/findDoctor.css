@@ -1,0 +1,81 @@
+/* Banner Styles? */
+.banner {
+  cursor: auto;
+  position: relative;
+  height: 450px;
+  width: 100vw;
+  display: block;
+  background: url("../images/find-doctro-banner.jpg");
+  width: 100vw;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.banner .title {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.banner .subtitle {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+  color: white;
+}
+
+.banner .dropdown-box {
+  margin-left: 270px;
+}
+
+.banner .categories {
+  margin-left: 415px;
+}
+
+.banner .under-text {
+  margin-left: 30px;
+  color: #8d93b3;
+}
+
+.banner .links:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.banner .other-options {
+  padding-top: 15px;
+  margin-top: 150px;
+  padding-left: 15%;
+  background-color: darkblue;
+  align-items: center;
+  display: flex;
+}
+
+.banner .other-options .box {
+  padding: 0px 35px 0 35px;
+  text-align: center;
+}
+
+.banner .other-options .border {
+  border-right: 2px solid #8d93b3;
+}
+
+.banner .other-options .box p {
+  color: #8d93b3;
+  font-size: small;
+}
+
+.banner .other-options .box img {
+  filter: invert(100%);
+  color: white;
+  height: 18px;
+  width: 18px;
+}
+
+.banner .other-options .box:hover p {
+  color: white;
+}
+
+.banner .other-options .box:hover img {
+  transform: scale(1.2);
+}

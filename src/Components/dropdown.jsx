@@ -3,7 +3,6 @@ import "./Dropdown.css";
 import Select from "react-select";
 import plus from "../images/plus.webp";
 
-
 const cssProp = {
   placeholder: (baseStyles, state) => ({
     ...baseStyles,
@@ -58,11 +57,11 @@ const Dropdown = () => {
             styles={cssProp}
           />
         </div>
-        <div className="plus-image">
+        {/* <div className="plus-image">
           <a href="#">
             <img src={plus} />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
