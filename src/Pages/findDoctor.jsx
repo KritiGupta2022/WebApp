@@ -22,7 +22,7 @@ const findDoctor = () => {
 const Banner = () => {
   return (
     <>
-      <div className="banner">
+      <div className="finddoc-banner">
         <div>
           <h1 className="title">Your home for health</h1>
           <h2 className="subtitle">Find and Book</h2>
