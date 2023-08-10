@@ -1,0 +1,78 @@
+.sectionOne {
+  background-color: #f0f0f5;
+  width: 100vw;
+  height: 660px;
+}
+
+.security {
+  display: flex;
+  padding: 50px 55px;
+  margin-left: 100px;
+}
+
+.security .topText {
+  font-size: 38px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.security .bottomText {
+  font-size: 38px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: black;
+}
+
+.security .checkBox {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.security .checkBox span {
+  color: #14bef0;
+  margin-right: 5px;
+}
+
+.security button {
+  margin-top: 20px;
+  background-color: #14bef0;
+  color: white;
+  font-size: 16px;
+  width: 130px;
+  height: 35px;
+  margin-left: 10px;
+  border: none;
+}
+
+.security .securitImage {
+  margin-top: 30px;
+  margin-left: 280px;
+  height: 240px;
+  width: 240px;
+}
+
+.icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icons .box {
+  justify-content: center;
+  text-align: center;
+  margin: 0px 50px;
+}
+
+.icons .box img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.icons .box p {
+  margin-left: -2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

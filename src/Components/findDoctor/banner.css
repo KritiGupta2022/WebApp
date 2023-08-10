@@ -1,7 +1,7 @@
 .finddoc-banner {
   cursor: auto;
   position: relative;
-  height: 450px;
+  height: 515px;
   width: 100vw;
   display: block;
   background: url("../../images/find-doctro-banner.jpg");
@@ -43,7 +43,7 @@
 
 .finddoc-banner .other-options {
   padding-top: 15px;
-  margin-top: 150px;
+  margin-top: 200px;
   padding-left: 15%;
   background-color: darkblue;
   align-items: center;

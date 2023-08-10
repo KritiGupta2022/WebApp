@@ -1,0 +1,103 @@
+.find {
+  color: #fff;
+  width: 100vw;
+  height: 660px;
+}
+
+.findRD {
+  display: flex;
+  margin-left: 50px;
+}
+
+.findRD .findRDText {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.findRD .topText {
+  font-size: 38px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.findRD .bottomText {
+  font-weight: 500;
+  font-size: 38px;
+  margin-top: 0px;
+}
+
+.findRD .bottomText span {
+  margin-left: -5px;
+  font-weight: 600;
+  color: black;
+}
+
+.findRD .checkBox {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.findRD .checkBox span {
+  color: #14bef0;
+  margin-right: 5px;
+}
+
+.findRD .checkBox .doBold {
+  font-weight: 550;
+  color: #787887;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.findRD .onlineDoc {
+  margin-top: 30px;
+  display: flex;
+}
+
+.findRD button {
+  background-color: #14bef0;
+  color: white;
+  font-size: 16px;
+  width: 220px;
+  height: 35px;
+  margin-left: 10px;
+  border: none;
+}
+
+.findRD .onlineDoc .pulse {
+  margin-top: 12px;
+  margin-left: 15px;
+  background-color: #14bef0;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+.findRD .onlineDoc p {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.findRD .onlineDoc span {
+  color: #787887;
+  margin-right: 5px;
+}
+
+.find .icons {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.find .icons img {
+  margin: 10px;
+  margin-top: 30px;
+  filter: invert(50%) sepia(10%) saturate(436%) hue-rotate(202deg)
+    brightness(91%) contrast(89%);
+}
+
+.find .icons img:hover {
+  filter: none;
+}

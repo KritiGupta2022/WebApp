@@ -1,0 +1,81 @@
+.businessBox {
+  background-color: #f0f0f5;
+  width: 100vw;
+  height: 660px;
+}
+
+.business {
+  display: flex;
+  margin-left: 50px;
+}
+
+.business .businessText {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.business .topText {
+  font-size: 38px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.business .bottomText {
+  font-weight: 500;
+  font-size: 38px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: black;
+}
+
+.business .checkBox {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.business .checkBox span {
+  color: #14bef0;
+  margin-right: 5px;
+}
+
+.business .checkBox .doBold {
+  font-weight: 550;
+  color: #787887;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.business .onlineMed {
+  display: flex;
+  margin-top: 35px;
+}
+
+.business .onlineMed button {
+  background-color: #14bef0;
+  color: white;
+  font-size: 16px;
+  width: 140px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+}
+
+.business .onlineMed span {
+  color: #787887;
+  margin-right: 5px;
+}
+
+.business .buisnessImage {
+  margin-top: 80px;
+  margin-left: 130px;
+  width: 560px;
+  height: 400px;
+}
+
+.icons img {
+  height: 80px;
+  width: 120px;
+}
