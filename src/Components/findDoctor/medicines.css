@@ -1,0 +1,98 @@
+.med {
+  background-color: #f0f0f5;
+  width: 100vw;
+  height: 660px;
+}
+
+.medicines {
+  display: flex;
+  margin-left: 50px;
+}
+
+.medicines .medicinesText {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.medicines .topText {
+  font-size: 38px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.medicines .bottomText {
+  font-weight: 500;
+  font-size: 38px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: black;
+}
+
+.medicines .checkBox {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.medicines .checkBox span {
+  color: #14bef0;
+  margin-right: 5px;
+}
+
+.medicines .checkBox .doBold {
+  font-weight: 550;
+  color: #787887;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.medicines .onlineDoc {
+  margin-top: 30px;
+  display: flex;
+}
+
+.medicines .onlineMed {
+  display: flex;
+  margin-top: 35px;
+}
+
+.medicines .onlineMed button {
+  background-color: #14bef0;
+  color: white;
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+}
+
+.medicines .onlineMed img {
+  margin: 5px 10px 0px 10px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.medicines .onlineMed p {
+  margin: 2px;
+  font-weight: 400;
+}
+
+.medicines .onlineMed span {
+  margin: 1px;
+  font-weight: 600;
+}
+
+.medicines .onlineMed span {
+  color: #787887;
+  margin-right: 5px;
+}
+
+.medicines .medImage {
+  margin-top: 80px;
+  margin-left: 250px;
+  width: 400px;
+  height: 400px;
+}
